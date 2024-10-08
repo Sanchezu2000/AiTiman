@@ -106,7 +106,7 @@ namespace AiTimanMVC.Controllers
             }
         }
 
-        [HttpPost, ActionName("Delete")]
+        [HttpPost, ActionName("DeleteConfirmed")]
         public IActionResult DeleteConfirmed(string id)
         {
             try

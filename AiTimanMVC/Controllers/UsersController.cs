@@ -117,7 +117,7 @@ namespace AiTimanMVC.Controllers
                         case "HealthProvider":
                             return RedirectToAction("HealthProviderDashboard", "HealthProvider");
                         case "Patient":
-                            return RedirectToAction("PatientDashboard", "Patients");
+                            return RedirectToAction("PatientDashboard", "Patient");
                         default:
                             // Redirect to home if role is unknown
                             return RedirectToAction("Index", "Home");

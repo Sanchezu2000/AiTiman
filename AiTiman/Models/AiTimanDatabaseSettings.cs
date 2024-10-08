@@ -11,6 +11,8 @@
         public string UsersCollectionName { get; set; } = null!;
 
         public string BookedCollectionName { get; set; } = null!;
+
+        public string PrescriptionCollectionName { get; set; } = null!;
     }
 }
 

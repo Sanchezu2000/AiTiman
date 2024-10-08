@@ -9,9 +9,16 @@ namespace AiTimanMVC.Controllers
             return View();
         }
 
+
+        public IActionResult PatientDashboard()
+        {
+            return View();
+        }
         public IActionResult BookedAppointments()
         {
             return View();
         }
+
+        
     }
 }

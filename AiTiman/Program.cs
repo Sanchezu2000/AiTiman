@@ -21,6 +21,7 @@ namespace AiTiman_API
             builder.Services.AddScoped<IUsers, UsersRepository>();
             builder.Services.AddScoped<IBooked, BookedRepository>();
             builder.Services.AddSingleton<IUsers, UsersRepository>();
+            builder.Services.AddScoped<IPrescription, PrescriptionRepository>();
             // Add services to the container.
 
             builder.Services.AddControllers();
